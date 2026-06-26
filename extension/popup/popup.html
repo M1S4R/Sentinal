@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Sentinel AI</title>
+
+    <link rel="stylesheet" href="popup.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>🛡 Sentinel</h1>
+
+    <p class="subtitle">
+        Live Threat Intelligence
+    </p>
+
+    <div class="card">
+
+        <h3>Real-Time Protection</h3>
+
+        <label class="switch">
+
+            <input
+                type="checkbox"
+                id="toggleProtection"
+                checked>
+
+            <span class="slider"></span>
+
+        </label>
+
+        <p id="status">
+            🟢 Protection Enabled
+        </p>
+
+    </div>
+
+    <div class="card">
+
+        <h3>Current Status</h3>
+
+        <p id="monitoring">
+
+            Monitoring websites...
+
+        </p>
+
+    </div>
+
+    <button id="scan">
+
+        Scan Current Site
+
+    </button>
+
+    <button id="dashboard">
+
+        Open Dashboard
+
+    </button>
+
+</div>
+
+<script src="popup.js"></script>
+
+</body>
+</html>
