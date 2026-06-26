@@ -1,4 +1,4 @@
-# Sentinel AI - Live Threat Intelligence Browser Extension
+# Sentinel  - Live Threat Intelligence Browser Extension
 
 Sentinel AI is a real-time threat intelligence browser extension that analyzes websites using multiple threat intelligence sources and calculates a risk score to help users identify malicious or suspicious websites before interacting with them.
 
